@@ -5,13 +5,13 @@ A JavaScript module of the luhn algorithm for Credit Card Validation that works 
 
 ## Installation ##
 
-    TBD
+    npm install luhn
 
 ## Testing ##
 
 The luhn module has unit tests built around it than can be used to verify the package before usage.  The tests are written with the Mocha and Should modules and running the below command will import such.  
 
-    TBD
+     npm test luhn
 
 ## Usage ##
 
