@@ -1,0 +1,22 @@
+{
+  "name": "luhn",
+  "version": "0.0.1",
+  "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
+  "description": "A validation module for browsers and Node.js to validate credit card numbers against the luhn algorithm.",
+  "homepage": "TBD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamesEggers1/node-Incubator"
+  },
+  "main": "./src/luhn",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+	"test": "make test"
+  },
+  "tags": [ "credit-card", "validation", "browser"],
+  "bugs": {
+    "url": "https://github.com/JamesEggers1/node-Incubator/issues"
+  }
+}
