@@ -1,3 +1,5 @@
+// Test Credit Card numbers examined from PayPal's list
+// http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
 "use strict";
 var mocha = require("mocha")
 	, should = require("should")
