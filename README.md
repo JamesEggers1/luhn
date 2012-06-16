@@ -18,17 +18,26 @@ The luhn module has unit tests built around it than can be used to verify the pa
 Once the package has been installed using `npm`, using the module is very simple.  At the moment, the module includes an `luhn` object that exposes a single method, `validate`.  `validate` accepts a single string parameter that represents the credit card number.
 
 #### Node.js ####
-    var luhn = require("luhn").luhn;
-	var is_valid = luhn.validate("411111111111"); // should respond true.
+
+```javascript
+var luhn = require("luhn").luhn;
+var is_valid = luhn.validate("411111111111"); // should respond true.
+```
 
 In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.
 
 #### Html ####
-    <script type="text/javascript" src="path/to/luhn-min.js"></script>
+
+```html
+<script type="text/javascript" src="path/to/luhn-min.js"></script>
+```
 
 #### JavaScript ####
-    var luhn = luhn;
-    var is_valid = luhn.validate("411111111111"); // should respond true.
+
+```javascript
+var luhn = luhn;
+var is_valid = luhn.validate("411111111111"); // should respond true.
+```
 
 By default, the luhn module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the luhn-min.js file.
 
