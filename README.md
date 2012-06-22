@@ -1,4 +1,4 @@
-node-luhn
+node-luhn [![Build Status](https://secure.travis-ci.org/JamesEggers1/node-luhn.png)](http://travis-ci.org/JamesEggers1/node-luhn)
 =============
 
 A JavaScript module of the luhn algorithm for Credit Card Validation that works with both client-side JavaScript and Node.js 
