@@ -1,5 +1,3 @@
-// TODO: Add scripts for install and update commands to indicate client-install instructions.
-
 (function(){
 	"use strict";
 	
