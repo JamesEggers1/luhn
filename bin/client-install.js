@@ -1,7 +1,7 @@
 (function(){
 	"use strict";
 	
-	var , SCRIPT_NAME = "luhn.js"
+	var SCRIPT_NAME = "luhn.js"
 		, _fs = require("fs")
 		, _path = require("path")
 		, _readline = require("readline")
