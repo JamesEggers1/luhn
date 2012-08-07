@@ -24,7 +24,14 @@ var luhn = require("luhn").luhn;
 var is_valid = luhn.validate("411111111111"); // should respond true.
 ```
 
-In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.
+## Using Luhn Client-Side ##
+In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.  When you install `luhn` using `npm`, instructions will appear how to install it for client-side JavaScript consumption.
+
+While you can copy the `luhn.js` file from the module's installation directory under `node_modles`, an automated script has been provided to assist you in this copy process and to make it more streamlined.  To do a client-side install, simply type the following `npm` command:
+
+    npm run-script luhn client-install
+
+Once you run that command, you'll be prompted to provide the path to which to install `luhn.js` for use by your client-side JavaScript.  At that point, you can reference the file in your html and JavaScript code as shown below.
 
 #### Html ####
 
@@ -39,9 +46,9 @@ var luhn = luhn;
 var is_valid = luhn.validate("411111111111"); // should respond true.
 ```
 
-By default, the luhn module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the luhn-min.js file.
+By default, the luhn module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the luhn.js file.
 
-## License ##
+## License (MIT) ##
 
 Copyright (c) 2012 James Eggers
 
