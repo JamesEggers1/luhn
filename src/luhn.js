@@ -9,7 +9,7 @@ var namespace;
 				, total = 0
 				, calc
 				, calc2;
-				
+
 				if (length === 0){
 					return true;
 				}
@@ -17,7 +17,7 @@ var namespace;
 				if (isNaN(iCCN) || !/^[0-9]+$/.test(trimmed)) {
 					return false;
 				}
-				
+
 				for (var i = length; i > 0; i--) {
 					calc = Math.floor(iCCN) % 10;
 					total += calc;
@@ -42,9 +42,9 @@ var namespace;
 
 				return ((total % 10) === 0);
 			}
-		
+
 			return {
 				validate: validate
 			};
 	} ());
-}((typeof window === "undefined") ? exports : namespace || window));
+}((typeof exports !== "undefined") ? exports : namespace || window));
