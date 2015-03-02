@@ -1,5 +1,6 @@
 ## 2015-03-02 ##
 - Updated mocha and should references to latest versions (2.1.0 and 5.0.1 respectively)
+- Removed Node 0.8 from TravisCI file.
 - package version -> 1.0.7
 
 
