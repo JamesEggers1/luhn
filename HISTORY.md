@@ -1,3 +1,8 @@
+## 2015-03-02 ##
+- Updated mocha and should references to latest versions (2.1.0 and 5.0.1 respectively)
+- package version -> 1.0.7
+
+
 ## 2014-01-29 ##
 - Merged in namespace-related pull request in order to make the package browserify compatible.
 - package version -> 1.0.6
