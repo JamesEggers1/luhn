@@ -21,7 +21,7 @@ Once the package has been installed using `npm`, using the module is very simple
 
 ```javascript
 var luhn = require("luhn").luhn;
-var is_valid = luhn.validate("411111111111"); // should respond true.
+var is_valid = luhn.validate("4111111111111111"); // should respond true.
 ```
 
 ## Using Luhn Client-Side ##
@@ -43,7 +43,7 @@ Once you run that command, you'll be prompted to provide the path to which to in
 
 ```javascript
 var luhn = luhn;
-var is_valid = luhn.validate("411111111111"); // should respond true.
+var is_valid = luhn.validate("4111111111111111"); // should respond true.
 ```
 
 By default, the luhn module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the luhn.js file.
