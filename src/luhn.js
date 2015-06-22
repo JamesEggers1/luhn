@@ -1,4 +1,3 @@
-var namespace;
 (function(ns){
 	"use strict";
 	ns.luhn = (function(){
@@ -47,4 +46,4 @@ var namespace;
 				validate: validate
 			};
 	} ());
-}((typeof exports !== "undefined") ? exports : namespace || window));
+}((typeof exports !== "undefined") ? exports : window));

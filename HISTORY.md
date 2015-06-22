@@ -1,8 +1,11 @@
+## 2015-06-21 ##
+- Cleaned up the module code slightly in preparation for v2.0 changes soon.
+- package version -> 1.0.8
+
 ## 2015-03-02 ##
 - Updated mocha and should references to latest versions (2.1.0 and 5.0.1 respectively)
 - Removed Node 0.8 from TravisCI file.
 - package version -> 1.0.7
-
 
 ## 2014-01-29 ##
 - Merged in namespace-related pull request in order to make the package browserify compatible.
