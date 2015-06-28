@@ -20,18 +20,14 @@ Once the package has been installed using `npm`, using the module is very simple
 #### Node.js ####
 
 ```javascript
-var luhn = require("luhn").luhn;
+var luhn = require("luhn");
 var is_valid = luhn.validate("4111111111111111"); // should respond true.
 ```
 
 ## Using Luhn Client-Side ##
-In addition to being usable as a Node.js module, the validator can also be used client-side in the user's web browser.  When you install `luhn` using `npm`, instructions will appear how to install it for client-side JavaScript consumption.
+Luhn is also compatible with client-side JavaScript development by way of Browserify.  To Learn more about Browserify, go to [http://browserify.org/](http://browserify.org/).
 
-While you can copy the `luhn.js` file from the module's installation directory under `node_modles`, an automated script has been provided to assist you in this copy process and to make it more streamlined.  To do a client-side install, simply type the following `npm` command:
-
-    npm run-script luhn client-install
-
-Once you run that command, you'll be prompted to provide the path to which to install `luhn.js` for use by your client-side JavaScript.  At that point, you can reference the file in your html and JavaScript code as shown below.
+Luhn 1.0.8 provides a more globally accessible way of using Luhn outside of Browserify.  The algorithm is the same as of v2.0; however, the client-side instructions are different and provided with that version.
 
 #### Html ####
 

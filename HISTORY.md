@@ -1,3 +1,11 @@
+## 2015-06-27 ##
+- Modified main source file to no longer require the luhn object when requiring.  require("luhn") is all that's needed now.
+- Updated source file to remove client-side concessions, recommending Browserify instead.
+- Updated tests to adhere to the new interface.
+- Updated package keywords to identify as browserify-compatible.
+- Updated package to include "browser" property to tell browserify to use minified version.
+- package version -> 2.0.0
+
 ## 2015-06-21 ##
 - Cleaned up the module code slightly in preparation for v2.0 changes soon.
 - package version -> 1.0.8

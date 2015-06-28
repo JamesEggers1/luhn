@@ -3,7 +3,7 @@
 "use strict";
 var mocha = require("mocha")
 	, should = require("should")
-	, luhn = require("../src/luhn").luhn
+	, luhn = require("../src/luhn")
 	, _VALID_TEST_NUMBER = "4012111111111111";
 	
 describe("Luhn Validation", function(){

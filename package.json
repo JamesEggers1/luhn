@@ -1,29 +1,27 @@
 {
-  "name": "luhn"
-  , "version": "1.0.8"
-  , "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)"
-  , "description": "A validation module for browsers and Node.js to validate credit card numbers against the luhn algorithm."
-  , "homepage": "https://github.com/JamesEggers1/node-luhn"
-  , "repository": {
-    	"type": "git"
-    	, "url": "git://github.com/JamesEggers1/node-luhn.git"
-  }
-  , "main": "./src/luhn"
-  , "engines": {
-    	"node": "0.10"
-  }
-  , "scripts": {
+  "name": "luhn",
+  "version": "2.0.0",
+  "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
+  "description": "A validation module for browsers and Node.js to validate credit card numbers against the luhn algorithm.",
+  "homepage": "https://github.com/JamesEggers1/node-luhn",
+  "repository": {
+    	"type": "git",
+    	"url": "git://github.com/JamesEggers1/node-luhn.git"
+  },
+  "main": "./src/luhn",
+  "browser": "./src/luhn-min.js",
+  "engines": {
+    	"node": ">=0.6"
+  },
+  "scripts": {
 		"test": "mocha tests/luhn-tests.js -R spec"
-		, "client-install": "node bin/client-install.js"
-		, "install": "node bin/client-install-directions.js"
-		, "update": "node bin/client-install-directions.js"
-  }
-  , "keywords": [ "credit-card", "validation", "browser", "luhn"]
-  , "bugs": {
+  },
+  "keywords": [ "credit-card", "validation", "browserify", "luhn"],
+  "bugs": {
     	"url": "https://github.com/JamesEggers1/node-luhn/issues"
-  }
-  , "devDependencies": {
-		"should" : "5.0.1"
-		, "mocha":"2.1.0"
+  },
+  "devDependencies": {
+		"should" : "5.0.1",
+		"mocha":"2.1.0"
   }
 }
