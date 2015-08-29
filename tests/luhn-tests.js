@@ -102,5 +102,31 @@ describe("Luhn Validation", function(){
 		});
 
 	});
+	describe("Random large number examples", function() {
+		var randomExamples = [];
+		var possible = "0123456789";
+		// generate random examples
+		for (var i = 0; i < 10; i++) {
+			// length is between 17 and 21
+			var length = Math.floor(Math.random() * 4 + 17);
+			var example = "";
+			for (var j = 0; j < length; j++) {
+				example += possible.charAt(Math.floor(Math.random() * possible.length));
+			}
+			randomExamples.push(example);
+		}
 
+		randomExamples.forEach(function(example) {
+			it("should have exactly one valid checksum digit after " + example, function() {
+				var validCount = 0;
+				for (var i = 0; i < 10; i++) {
+					var number = example + '' + i;
+					if (luhn.validate(number)) {
+						validCount++;
+					}
+				}
+				validCount.should.equal(1);
+			});
+		})
+	});
 });
