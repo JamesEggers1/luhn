@@ -1,7 +1,7 @@
 "use strict";
 module.exports = (function(){
 	function validate(cardNumber){
-		var trimmed = cardNumber.trim()
+		var trimmed = String(cardNumber).replace(/[\s]/g, "")
 			, length = trimmed.length
 			, odd = false
 			, total = 0

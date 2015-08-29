@@ -102,6 +102,24 @@ describe("Luhn Validation", function(){
 		});
 
 	});
+	describe("Test Credit Card Numbers with Spaces", function() {
+		it("should pass Visa - 4111 1111 1111 1111", function(){
+			var number = "4111 1111 1111 1111";
+			luhn.validate(number).should.be.true;
+		});
+
+		it("should pass Visa - 4012 8888 8888 1881", function(){
+			var number = "4012 8888 8888 1881";
+			luhn.validate(number).should.be.true;
+		});
+
+		it("should pass American Express - 3782 822463 10005", function(){
+			var number = "378282246310005";
+			luhn.validate(number).should.be.true;
+		});
+
+
+	});
 	describe("Random large number examples", function() {
 		var randomExamples = [];
 		var possible = "0123456789";
