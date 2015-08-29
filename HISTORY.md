@@ -1,3 +1,7 @@
+## 2015-08-29 ##
+- Merged update from jhericks to address issue 8 dealing with large numbers.
+- package version -> 2.1.0
+
 ## 2015-06-27 ##
 - Modified main source file to no longer require the luhn object when requiring.  require("luhn") is all that's needed now.
 - Updated source file to remove client-side concessions, recommending Browserify instead.

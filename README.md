@@ -44,6 +44,7 @@ var is_valid = luhn.validate("4111111111111111"); // should respond true.
 
 By default, the luhn module places itself into the global scope in the browser.  If you would prefer to NOT have it be directly attached to the `window` object, you can add your own `namespace` at the top of the luhn.js file.
 
+
 ## License (MIT) ##
 
 Copyright (c) 2015 James Eggers

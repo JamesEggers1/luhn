@@ -1,6 +1,6 @@
 {
   "name": "luhn",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
   "description": "A validation module for browsers and Node.js to validate credit card numbers against the luhn algorithm.",
   "homepage": "https://github.com/JamesEggers1/node-luhn",
