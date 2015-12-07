@@ -18,7 +18,7 @@
 		module.exports = factory();
 	} else {
 		// Global.
-		root.Luhn = factory();
+		root.luhn = factory();
 	}
 })(this, function () {
 	'use strict';
