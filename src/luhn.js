@@ -1,6 +1,41 @@
-"use strict";
-module.exports = (function(){
-	function validate(cardNumber){
+/**
+ * Luhn
+ *
+ * A JavaScript module of the luhn algorithm for Credit Card Validation,
+ * that works with both client-side JavaScript and Node.js.
+ *
+ * @copyright James Eggers
+ * @license MIT
+ *
+ */
+
+(function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD.
+		define([], factory);
+	} else if (typeof exports === 'object') {
+		// CommonJS.
+		module.exports = factory();
+	} else {
+		// Global.
+		root.Luhn = factory();
+	}
+})(this, function () {
+	'use strict';
+
+	/**
+	 * Luhn
+	 * @constructor
+	 */
+	function Luhn() {}
+
+	/**
+	 * Validates a credit card number.
+	 *
+	 * @param  {String} cardNumber Credit card number.
+	 * @return {Boolean}           Result of the validation.
+	 */
+	Luhn.prototype.validate = function (cardNumber) {
 		var trimmed = String(cardNumber).replace(/[\s]/g, "")
 			, length = trimmed.length
 			, odd = false
@@ -37,9 +72,9 @@ module.exports = (function(){
 			}
 
 			return ((total % 10) === 0);
-		}
+	};
 
-		return {
-			validate: validate
-		};
-} ());
+	// Return instance for direct access.
+	return new Luhn();
+
+});
