@@ -36,7 +36,7 @@ module.exports = (function(){
 				odd = !odd;
 			}
 
-			return ((total % 10) === 0);
+			return (total !== 0 && (total % 10) === 0);
 		}
 
 		return {

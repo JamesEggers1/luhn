@@ -147,4 +147,25 @@ describe("Luhn Validation", function(){
 			});
 		})
 	});
+	describe("User Submitted Issues", function(){
+		it("should return false for number of zero.", function(){
+			var number = "0";
+			luhn.validate(number).should.be.false;
+		});
+
+		it("should return false for number of 4 zeroes.", function(){
+			var number = "0000";
+			luhn.validate(number).should.be.false;
+		});
+
+		it("should return false for number of 16 zeroes.", function(){
+			var number = "0000000000000000";
+			luhn.validate(number).should.be.false;
+		});
+
+		it("should return false if digits add to 0.", function(){
+			var number = "00000000000000";
+			luhn.validate(number).should.be.false;
+		});
+	});
 });

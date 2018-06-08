@@ -1,4 +1,9 @@
-## 2018-0608 ##
+## 2018-06-08 ##
+- Addressed Issue #14 (Card Number of Zeroes)
+- Updated License Date
+- package version -> 2.3.0
+
+## 2018-06-08 ##
 - Added MIT license to package manifest
 - Corrected bug in minified version
 - package version -> 2.2.0
