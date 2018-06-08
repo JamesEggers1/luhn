@@ -1,3 +1,8 @@
+## 2018-0608 ##
+- Added MIT license to package manifest
+- Corrected bug in minified version
+- package version -> 2.2.0
+
 ## 2015-08-29 ##
 - Merged update from jhericks to address issue 8 dealing with large numbers.
 - package version -> 2.1.0
