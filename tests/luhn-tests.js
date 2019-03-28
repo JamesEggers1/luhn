@@ -167,5 +167,10 @@ describe("Luhn Validation", function(){
 			var number = "00000000000000";
 			luhn.validate(number).should.be.false;
 		});
+
+		it("should return false if passed an empty string", function(){
+			var number = "";
+			luhn.validate(number).should.be.false;
+		});
 	});
 });
