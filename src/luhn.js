@@ -8,10 +8,6 @@ module.exports = (function(){
 			, calc
 			, calc2;
 
-			if (length === 0){
-				return true;
-			}
-
 			if (!/^[0-9]+$/.test(trimmed)) {
 				return false;
 			}
