@@ -1,3 +1,8 @@
+## 2019-04-14 ##
+- Pull Request #15 (Thank You Jonathan Porta!)
+- Updated License Date
+- package version -> 2.4.0
+
 ## 2018-06-08 ##
 - Addressed Issue #14 (Card Number of Zeroes)
 - Updated License Date
