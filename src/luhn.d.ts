@@ -1,0 +1,1 @@
+export declare function validate(cardNumber: string): boolean;

@@ -10,6 +10,7 @@
     "url": "git://github.com/JamesEggers1/node-luhn.git"
   },
   "main": "./src/luhn",
+  "types": "./src/luhn.d.ts",
   "browser": "./src/luhn-min.js",
   "engines": {
     "node": ">=0.6"
