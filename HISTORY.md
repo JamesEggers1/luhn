@@ -1,3 +1,9 @@
+## 2020-04-14 ##
+- Pull Request #16 (Thank You Stepan Mikhaylyuk!)
+- Updated License Date
+- Added TypeScript definition (through Pull Request)
+- package version -> 2.4.1
+
 ## 2019-04-14 ##
 - Pull Request #15 (Thank You Jonathan Porta!)
 - Updated License Date
