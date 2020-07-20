@@ -28,7 +28,7 @@
     "url": "https://github.com/JamesEggers1/node-luhn/issues"
   },
   "devDependencies": {
-    "mocha": "^2.1.0",
+    "mocha": "^8.0.1",
     "should": "^5.0.1"
   }
 }
