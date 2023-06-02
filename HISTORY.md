@@ -1,3 +1,8 @@
+## 2023-06-03 ##
+- Updated License Date
+- Converted code to TypeScript and ES6 modules
+- package version -> 3.0.0
+
 ## 2020-04-14 ##
 - Pull Request #16 (Thank You Stepan Mikhaylyuk!)
 - Updated License Date
