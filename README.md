@@ -1,4 +1,4 @@
-node-luhn [![Build Status](https://secure.travis-ci.org/JamesEggers1/node-luhn.png)](http://travis-ci.org/JamesEggers1/node-luhn)
+luhn [![Build Status](https://app.travis-ci.com/JamesEggers1/node-luhn.svg?branch=master)](https://app.travis-ci.com/JamesEggers1/node-luhn)
 =============
 
 A JavaScript module of the luhn algorithm
