@@ -4,10 +4,10 @@
   "version": "0.0.0-development",
   "author": "James Eggers <james.r.eggers@gmail.com> (http://www.jamesreggers.com/)",
   "description": "A validation module for browsers and Node.js to validate credit card numbers against the luhn algorithm.",
-  "homepage": "https://github.com/JamesEggers1/node-luhn",
+  "homepage": "https://github.com/JamesEggers1/luhn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamesEggers1/node-luhn.git"
+    "url": "https://github.com/JamesEggers1/luhn.git"
   },
   "main": "./dist/luhn",
   "types": "./dist/luhn.d.ts",
@@ -26,7 +26,7 @@
     "luhn"
   ],
   "bugs": {
-    "url": "https://github.com/JamesEggers1/node-luhn/issues"
+    "url": "https://github.com/JamesEggers1/luhn/issues"
   },
   "devDependencies": {
     "mocha": "^10.2.0",
