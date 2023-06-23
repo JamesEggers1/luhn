@@ -2,7 +2,7 @@
 // http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
 
 import should from "should";
-import luhn from "../lib/luhn.js";
+import luhn from "../dist/luhn.js";
 
 const _VALID_TEST_NUMBER = "4012111111111111";
 

@@ -4,3 +4,7 @@ dist: focal
 node_js:
   - node
   - lts/*
+jobs:
+  include:
+    - script: npm run build
+    - script: npm test
