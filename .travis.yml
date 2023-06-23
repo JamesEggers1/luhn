@@ -4,7 +4,8 @@ dist: focal
 node_js:
   - node
   - lts/*
-compile: npm run build
-stages:
-  - compile
-  - test
+before_script:
+  - npm install
+  - npm run build
+script:
+  - npm test
