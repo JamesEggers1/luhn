@@ -1,4 +1,7 @@
+.gitignore
 .travis.yml
 node_modules
 package-lock.json
 src
+tests
+tsconfig.json

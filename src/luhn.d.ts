@@ -1,1 +1,1 @@
-export declare function validate(cardNumber: string): boolean;
+export default function validate(stringToValidate: string): boolean;

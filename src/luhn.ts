@@ -1,5 +1,5 @@
-export default function validate(cardNumber: string) {
-  let trimmed = cardNumber.replace(/[\s]/g, ""),
+export default function validate(stringToValidate: string) {
+  let trimmed = stringToValidate.replace(/[\s]/g, ""),
     length: number = trimmed.length,
     odd: boolean = false,
     total: number = 0,
